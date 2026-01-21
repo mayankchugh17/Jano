@@ -9,7 +9,7 @@ export default function Navbar()
                 <Image src="/header_logo.png" width={200} height={90} alt="Logo" />
                 <button className="bg-[#7AA93C] w-28 h-10 rounded text-white hover:bg-green-500 font-semibold cursor-pointer">Buy now</button>
             </header> */}
-            <nav className="flex my-7 mx-auto justify-around items-center">
+            <nav className="flex my-7 mb-15 mx-auto justify-around items-center">
                 <Image src="/logo.png" width={100} height={80} alt="Main Logo" />
                 <ul className="flex gap-12 font-semibold text-2xl">
                     <li className="hover:text-[orange] cursor-pointer transition"><Link href="/demo">Demo</Link></li>

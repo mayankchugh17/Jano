@@ -4,10 +4,10 @@ export default function Marketing() {
   return (
     <>
       <section className="bg-[#1d1d1d] flex pt-15 h-250 items-center gap-4">
-        <Image src="/screen_02.png" alt="photo" height={500} width={700} />
+        <Image src="/screen_02.png" alt="photo" height={600} width={900} />
         <article className="px-35">
           <h1 className="text-8xl text-pink-500 font-semibold">51+</h1>
-          <h1 className="text-8xl text-white font-semibold">
+          <h1 className="text-[75px] text-white font-semibold">
             Pre-Made inner <br /> Pages ready.
           </h1>
           <p className="mt-8 text-2xl text-white">

@@ -15,13 +15,15 @@ export default function QuickStart() {
 
   return (
     <>
-      <section className="pt-30 bg-[#FAFAFA] text-center h-140 mb-3">
+      <section className="relative pt-30 bg-[#FAFAFA] text-center h-140 mb-3">
         <p className="text-pink-500 text-2xl mb-5">QUICK START</p>
         <h1 className="font-semibold text-7xl mb-3">
           13 Pre-Made Creative & <br /> Stunning Demo
+        <span className="w-105 h-1 bg-pink-500 absolute right-205"></span>
         </h1>
+        
 
-        <div className="border-3 border-gray-700 rounded-2xl container mx-auto mt-19 mb-50 pb-7 ">
+        <div className="border-3 border-gray-700 rounded-2xl container mx-auto mt-19 mb-50 pb-5 ">
           <ul className="flex text-center cursor-pointer justify-center gap-50 text-2xl mt-5 p-auto items-center">
             <li
               className={click ? black : white}
