@@ -14,7 +14,7 @@ export default function Features() {
             return (
               <div
                 key={key}
-                className="border text-center border-gray-300 rounded-[50px] m-8 p-10 justify-center "
+                className="border text-center border-gray-300 rounded-[50px] m-8 p-10 justify-center hover:border-none hover:bg-[#fafafa] "
               >
                 <Image src={card.img} width={60} className="ml-11" height={60} alt={card.alt} />
                 <h2 className="text-[20px] font-bold mt-11 pb-1">{card.description}</h2>

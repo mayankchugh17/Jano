@@ -3,6 +3,10 @@
 
 body{
     overflow-x: hidden;
-    background-color: white
-    ;
+    background-color: white;
+}
+
+body::selection{
+    background-color: black;
+    color: white;
 }

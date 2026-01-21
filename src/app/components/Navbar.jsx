@@ -16,7 +16,7 @@ export default function Navbar()
                     <li className="hover:text-[orange] cursor-pointer transition"><Link href="/pages">Pages</Link></li>
                     <li className="hover:text-[orange] cursor-pointer transition"><Link href="/features">Features</Link></li>
                 </ul>
-                <button className="bg-black rounded-full text-white px-5.5 py-3 font-semibold text-xl ">Purchase Now</button>
+                <button className="bg-black rounded-full text-white px-5.5 py-3 font-semibold text-xl hover:bg-yellow-500 transition duration-200 cursor-pointer ">Purchase Now</button>
             </nav>
         </div>
     )
